@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Html Head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cheat Sheet</title>
+    <link type="text/css" rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+    <h1 id="cheat">cheat sheet</h1>
+
+    <main>
+        <h2>Referencia de Elementos HTML</h2>
+        <p>Esta página lista <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">todos los elementos
+                HTML</a>. Están agrupados por funciones para ayudarte a
+            encontrar lo que
+            tienes en mente con facilidad. Aunque esta guía está escrita para aquellos que son nuevos escribiendo
+            código, se pretende que sea una referencia útil para cualquiera.
+        </p>
+
+        <h4>Raíz Principal</h4>
+        <div>
+            <table>
+                <tr>
+                    <th scope="col">Elemento</th>
+                    <th scope="row">Descripcion</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="pinkcode">&lt;html&gt;</p>
+                    </td>
+                    <td>Este elemento HTML representa la raíz de un documento HTML. El resto de elementos descienden de
+                        este elemento</td>
+                </tr>
+            </table>
+        </div>
+
+        <h4>Metadatos del documento</h4>
+        <p>Los metadatos del documento contienen información sobre la página. Esto incluye información sobre estilos,
+            scripts y datos que ayudan al software (
+            <a href="#">search engines</a>
+            ,<a href="#">browsers</a>
+            , etc.) a usar y generar la página. Los metadatos de estilos y scripts pueden estar definidos en la página o
+            estar enlazados a otro fichero que contiene la informacion.
+        </p>
+        <table>
+            <tr>
+                <th>Elemento</th>
+                <th>Descripcion</th>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;base&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;base&gt;</span> especifica la direccion URL base que se utilizara para todas
+                    las direcciones URL relativas contenidas dentro de un documento. Sólo puede haber un elemento
+                    <span>&lt;base&gt;</span> en un docuemnto.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;head&gt;</p>
+                </td>
+                <td>El elemento
+                    <span>&lt;head&gt;</span> provee información general (metadatos) acerca del documento, incluyendo su
+                    título y enlaces a scripts y hojas de estilos.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;link&gt;</p>
+                </td>
+                <td>el elemento <span>&lt;link&gt;</span> especifica la relación entre el documento actual y un recurso
+                    externo. Este elemento es usado comunmente para ligar al CSS, pero tambien se usa para establecer el
+                    icono del sitio (favicon).
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;meta&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;meta&gt;</span> representa los metadatos que no pueden ser representados por
+                    otro elemento HTML "meta-relacionado", como <span>base</span>, <span>link</span>,
+                    <span>script</span>, <span>style</span>, o <span>title</span>.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;style&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;style&gt;</span> contiene la informacion del estilo de un documento. Contiene
+                    CSS, que se aplica a los elementos del documento especificado dentro del elemento
+                    <span>&lt;style&gt;</span>.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;title&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;title&gt;</span> define el titulo del documento que se muestra en la barra de
+                    titulo del Navegador. Solo contiene texto, las etiquetas dentro de este elemento serán ignorados.
+                </td>
+            </tr>
+        </table>
+
+        <h4>Raíz de seccionamiento</h4>
+        <table>
+            <tr>
+                <th>Elemento</th>
+                <th>Descripcion</th>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;body&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;body&gt;</span> representa el contenido de un docuemnto HTML. Solo puede haber
+                    un eleneto <span>&lt;body&gt;</span>.
+                </td>
+            </tr>
+        </table>
+
+        <h4>Seccionamiento de Contenido</h4>
+        <p>Los elementos de seccionamiento de contenido permiten organizar el contenido del documento en partes lógicas.
+            Usar los elementos de seccion ayuda a crear un esquema general para el contenido de la página.
+        </p>
+        <table>
+            <tr>
+                <th>Elemento</th>
+                <th>Descripcion</th>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;address&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;address&gt;</span> indica que el HTML contiene informacion de contacto.</td>
+
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;article&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;article&gt;</span> representa una composicion autónoma en un documento,
+                    página, aplicación o sitio, que está destinada a ser distribuible o reutilizable de forma
+                    independiente.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;aside&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;aside&gt;</span> representa una porcion del documento cuyo contenido es
+                    indirectamente relacionado con el contenido principal del documento.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="pinkcode">&lt;footer&gt;</p>
+                </td>
+                <td>El elemento <span>&lt;footer&gt;</span> representa un pie de página. Normalmente contiene
+                    informacion sobre el autor de la seccion, copyright o links hacia documentos relacionados.
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <em class="pinkcode">&lt;h1&gt;</em>, <em class="pinkcode">&lt;h2&gt;</em>,<br>
+                    <em class="pinkcode">&lt;h3&gt;</em>, <em class="pinkcode">&lt;h4&gt;</em>,
+                    <em class="pinkcode">&lt;h5&gt;</em>, <em class="pinkcode">&lt;h6&gt;</em>
+                </td>
+                <td>Los Elementos <span>&lt;h1&gt;</span> a <span>&lt;h6&gt;</span> representan seis niveles de
+                    encabezados de seccion. <span>&lt;h1&gt;</span> es el encabezado de mayor nivel, mientras que
+                    <span>&lt;h6&gt;</span> es el de menor.
+                </td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        Hecho por BetaCancri<img src="BetaCancri.png" alt="">
+    </footer>
+</body>
+
+
+</html>
